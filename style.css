@@ -31,18 +31,10 @@ body {
     margin-left: 15px;
     padding: 35px;
 }
-.small {
-    font-size: 15px;
-}
-.medium {
-    font-size: 25px;
-}
-.large {
-    font-size: 35px;
-}
 .opcoes {
     
 }
-.habilidades {
+.habilidades .impar {
+    color: brown;
    
 }
