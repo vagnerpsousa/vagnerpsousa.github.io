@@ -1,16 +1,35 @@
 @charset "utf-8";
-
+.principal {
+    width: 800px;
+    height: 500px;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+#minha-foto{
+    width: 200px;
+    float: left;
+    margin: 35px;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    
+}
 body {
     background-color: #e0fbfc;
 }
 #nome {
+    text-align: center;
     font-family:'Times New Roman', Times, serif;
 }
 #descricao {
     font-family: helvetica;
+    clear: both;
 }
-#apresentacao {
+.apresentacao {
     font-size: 1.5em;
+    margin-left: 15px;
+    padding: 35px;
 }
 .small {
     font-size: 15px;
@@ -21,7 +40,9 @@ body {
 .large {
     font-size: 35px;
 }
-.destaque {
-    font-weight: bold;
-    font-style: italic;
+.opcoes {
+    
+}
+.habilidades {
+   
 }
